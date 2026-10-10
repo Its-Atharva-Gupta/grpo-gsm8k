@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# model weights — too big for git; get them from HuggingFace
+*.safetensors
+*.bin
+*.pt
+*.zip
+adapter_model.safetensors
+
+# secrets
+.kaggle/
+.huggingface/
+token
+*.token
+
+# bulky raw outputs (kept curated copies live in results/)
+out/
+merged_model/
+adapter_upload/
+lora_*/
+*.log
+local_smoke.log
